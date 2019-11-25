@@ -85,7 +85,26 @@ class Game {
         }
     }
 
-    gameLogic () {
-        // do stuff
+    gameLogic (block) {
+        // set player
+        let player = this.player ? 'x' : 'o';
+        let index = Number(block.getAttribute('data-index'));
+        this.turns++;
+
+        // check if block is taken
+        if (block.getAttribute('data-player') || this.gameOver) {
+            return;
+        }
+
+        // add info to the DOM
+        block.setAttribute('data-player', player);
+        block.innerHTML = player;
+        this.grid[index] = player;
+
+        // switch player
+        this.playerTurn = !this.playerTurn;
+
+        // check for win condition
+        let win = this.checkWin(player);
     }
 }
