@@ -16,3 +16,7 @@ body {
     text-align: center;
     line-height: calc(500px/3);
 }
+
+#message {
+    font-size: 16px;
+}
