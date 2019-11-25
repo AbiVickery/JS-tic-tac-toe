@@ -1,0 +1,18 @@
+body {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#game {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#game div {
+    border: solid;
+    width: calc(100%/3 - 1px);
+    text-align: center;
+    line-height: calc(500px/3);
+}
