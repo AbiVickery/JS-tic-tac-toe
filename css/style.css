@@ -11,9 +11,9 @@ body {
 #game {
     width: 500px;
     height: 500px;
-    /* display: grid; */
+    display: grid;
     grid: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 /* 
 .one {
