@@ -11,10 +11,10 @@ body {
 #game {
     width: 500px;
     height: 500px;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
 }
-
+/* 
 .one {
     display: inline-flex;
 }
@@ -41,7 +41,7 @@ body {
 }
 .nine {
     display: inline-flex;
-}
+} */
 
 #game div {
     border: solid;
