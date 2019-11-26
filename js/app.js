@@ -107,4 +107,11 @@ class Game {
         // check for win condition
         let win = this.checkWin(player);
     }
+    
+}
+class reset {
+    preventDefault;
+    addEventListener(click) {
+        document.querySelector;
+    }
 }
