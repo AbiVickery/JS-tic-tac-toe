@@ -11,8 +11,36 @@ body {
 #game {
     width: 500px;
     height: 500px;
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
+}
+
+.one {
+    display: inline-flex;
+}
+.two {
+    display: inline-flex;
+}
+.three {
+    display: inline-flex;
+}
+.four {
+    display: inline-flex;
+}
+.five {
+    display: inline-flex;
+}
+.six {
+    display: inline-flex;
+}
+.seven {
+    display: inline-flex;
+}
+.eight {
+    display: inline-flex;
+}
+.nine {
+    display: inline-flex;
 }
 
 #game div {
