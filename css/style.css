@@ -5,7 +5,7 @@ body {
     background: linear-gradient(90deg, rgba(255,156,156,1) 0%, rgba(78,193,149,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9c9c",endColorstr="#4ec195",GradientType=1);
     font-family: 'Lobster', cursive;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 #game {
