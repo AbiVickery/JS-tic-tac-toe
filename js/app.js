@@ -44,6 +44,7 @@ class Game {
         this.player = !this.player;
 
         // check for win condition
+        
         if (this.grid[0] && this.grid[1] && this.grid[2]) {
             this.message.innerHTML = `Player '${player}' Wins!`;
         }
